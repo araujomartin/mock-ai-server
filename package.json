@@ -1,0 +1,21 @@
+{
+  "name": "mock-ai-server",
+  "version": "1.0.0",
+  "author": {
+    "name": "Martin Araujo",
+    "email": "martin.araujo.dev@gmail.com"
+  },
+  "module": "src/server.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "hono": "^4.8.10"
+  }
+}
